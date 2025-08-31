@@ -1,9 +1,12 @@
+import cloudpickle
 import streamlit as st
-import joblib
 import numpy as np
+import os
 
-
-model = joblib.load('model/regression_model.pkl')
+# Load model
+model_path = os.path.join('model', 'regression_model.pkl')
+with open(model_path, 'rb') as f:
+    model = cloudpickle.load(f)
 
 
 st.set_page_config(page_title="Insurance Charges Predictor", page_icon="💰", layout="centered")
