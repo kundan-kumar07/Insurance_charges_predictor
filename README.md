@@ -7,10 +7,10 @@ Predict insurance charges based on **age, smoker status, and BMI category (obese
 ## Folder Structure
 
 insurance_predictor/
-├── data/ # Dataset(s)
-├── notebook.ipynb # Training notebook
-├── model.pkl # Trained model
-└── streamlit_app.py # Streamlit app
+├── data/               # Dataset(s)
+├── notebook.ipynb      # Training notebook
+├── model.pkl           # Trained model
+└── streamlit_app.py    # Streamlit app
 
 
 ---
