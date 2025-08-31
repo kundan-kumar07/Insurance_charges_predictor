@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 
-model = joblib.load('regression_model.pkl')
+model = joblib.load('model/regression_model.pkl')
 
 
 st.set_page_config(page_title="Insurance Charges Predictor", page_icon="💰", layout="centered")
