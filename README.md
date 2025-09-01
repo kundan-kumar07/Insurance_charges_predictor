@@ -1,6 +1,12 @@
 # 💰 Insurance Charges Predictor
 
-Predict insurance charges based on **age, smoker status, and BMI category (obese or not)** using a trained ML model.
+Cleaned and preprocessed insurance dataset (1,337 rows, 7 features): handled duplicates, encoded categorical variables (sex, smoker, region, bmi_category), and scaled numerical features.
+
+Conducted correlation analysis & feature selection → selected top predictors (is_smoker, age, bmi_category_Obese).
+
+Trained Linear Regression model, achieving R² = 0.80 (test) and R² = 0.73 (train).
+
+Saved model as regression_model.pkl for integration with Streamlit app.
 
 ---
 
