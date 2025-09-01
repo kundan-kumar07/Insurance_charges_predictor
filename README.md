@@ -16,7 +16,6 @@ insurance_predictor/
 ---
 
 ## Run Locally
-
 1. Clone the repo:
 git clone <your-repo-url>
 cd insurance_predictor
